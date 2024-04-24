@@ -32,6 +32,11 @@ class Customer2(val id: Int, var name: String, val yaarOfBirth: Int) {
             }
             field = value
         }
+
+
+    fun customerAsString(): String {
+        return "Customer2 id: $id, name: $name, age: $age"
+    }
 }
 
 
@@ -42,6 +47,8 @@ fun main(args: Array<String>) {
 
     val customer2 = Customer2(10, "Sergio", 1996)
     customer2.socialSecurityNumber = "SN1234"
+
+    customer2.customerAsString()
 
     println("Customer2 id: ${customer2.id}, name: ${customer2.name}, age: ${customer2.age}")
     println("Customer2 socialSecurityNumber: ${customer2.socialSecurityNumber}")
