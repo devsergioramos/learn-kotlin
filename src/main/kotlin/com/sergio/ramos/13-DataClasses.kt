@@ -1,4 +1,4 @@
-
+package com.sergio.ramos
 
 data class CustomerDt(val id: Int, var name: String, val email: String) {
     override fun toString(): String {
@@ -6,7 +6,7 @@ data class CustomerDt(val id: Int, var name: String, val email: String) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val customer = CustomerDt(1, "Sergio", "sergio.b.snp@gmail.com")
     println("Customer id: ${customer.id}, name: ${customer.name}")
 

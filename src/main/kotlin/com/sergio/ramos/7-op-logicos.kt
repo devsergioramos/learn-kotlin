@@ -1,4 +1,6 @@
-fun main(args: Array<String>) {
+package com.sergio.ramos
+
+fun main() {
     var ceu = "Azul"
     var car = "Branco"
 

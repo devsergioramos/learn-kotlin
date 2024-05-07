@@ -1,6 +1,6 @@
-import java.util.*
+package com.sergio.ramos
 
-fun main(args: Array<String>) {
+fun main() {
     var listaCompras = arrayOf("Arroz", "Feijão", "Frango", "Macarrão")
 
     var indice = 0

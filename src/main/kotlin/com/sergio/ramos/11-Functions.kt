@@ -1,3 +1,5 @@
+package com.sergio.ramos
+
 fun hello(): Unit {
     println("hello")
 }
@@ -30,7 +32,7 @@ private fun extracted(vararg strings: String) {
     }
 }
 
-fun main(Args: Array<String>) {
+fun main() {
     hello()
 
     val value = returnsAFour()

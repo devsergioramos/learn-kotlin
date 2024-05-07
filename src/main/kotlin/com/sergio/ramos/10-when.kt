@@ -1,6 +1,6 @@
-import java.util.*
+package com.sergio.ramos
 
-fun main(args: Array<String>) {
+fun main() {
     var opcao = 6
 
     when(opcao) {

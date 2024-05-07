@@ -1,6 +1,8 @@
+package com.sergio.ramos
+
 import java.util.*
 
-fun main(args: Array<String>) {
+fun main() {
     var listaCompras = arrayOf("Arroz", "Feijão", "Frango", "Macarrão")
 
     println(listaCompras[0])

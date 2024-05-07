@@ -1,4 +1,6 @@
-fun main(args: Array<String>) {
+package com.sergio.ramos
+
+fun main() {
     var valor1 = 20
     var valor2 = 10
 

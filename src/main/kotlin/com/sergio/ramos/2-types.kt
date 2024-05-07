@@ -1,4 +1,6 @@
-fun main(args: Array<String>) {
+package com.sergio.ramos
+
+fun main() {
     /*
     * String - textos
     * byte - Números inteiros (-128 até 127)

@@ -1,4 +1,6 @@
-fun main(args: Array<String>) {
+package com.sergio.ramos
+
+fun main() {
     var nome = "Sérgio"
     var idade = 28
     var profissao = "Software Engineer"

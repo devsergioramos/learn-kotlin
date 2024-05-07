@@ -1,4 +1,4 @@
-
+package com.sergio.ramos
 enum class Priority (val value: Int) {
     MINOR(-1) {
         override fun text(): String {
@@ -27,7 +27,7 @@ enum class Priority (val value: Int) {
     abstract fun text(): String
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val priority = Priority.NORMAL
 
     println(priority)
