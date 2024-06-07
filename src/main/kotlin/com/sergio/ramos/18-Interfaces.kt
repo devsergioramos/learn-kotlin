@@ -11,7 +11,7 @@ interface CustomerRepository {
     fun getById(id: Int): Customer
 }
 
-class SQLCustomerRepository: CustomerRepository {
+class SQLCustomerJavaRepository: CustomerRepository {
     override fun getById(id: Int): Customer {
         return Customer(1, "Sergio")
     }
