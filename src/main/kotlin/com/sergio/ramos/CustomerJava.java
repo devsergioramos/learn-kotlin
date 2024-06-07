@@ -1,5 +1,7 @@
 package com.sergio.ramos;
 
+import org.jetbrains.annotations.NotNull;
+
 public class CustomerJava {
     private int id;
     private String name;
@@ -31,6 +33,14 @@ public class CustomerJava {
 
     public void prettyPrint(){
         System.out.println("ID: %d, Name: %s, Email: %s".formatted(id, name, email));
+    }
+
+    public @NotNull String neverNull() {
+        return "A string";
+    }
+
+    public String sometimesNull() {
+        return "A string";
     }
 
     @Override

@@ -9,7 +9,16 @@ fun main() {
 
     customer.prettyPrint()
 
+    customer.neverNull()
+    customer.sometimesNull()
+
     val runnable = Runnable { println("I'm a Runnable") }
+
+    val kr = KotlinCustomerRep()
+
+    val customerJava = kr.getById(10)
+
+    customerJava.id
 }
 
 class RunnableKotlin: Runnable {
