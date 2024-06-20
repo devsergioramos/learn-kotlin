@@ -26,7 +26,4 @@ fun main(args: Array<String>) {
 
     val booleans = booleanArrayOf(true, false, true, false)
     val characters = charArrayOf('a', 'b', 'c', 'd')
-
-
-
 }
