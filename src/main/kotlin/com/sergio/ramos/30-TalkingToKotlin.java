@@ -2,7 +2,7 @@ package com.sergio.ramos;
 
 import java.io.IOException;
 
-public class TalkingToKotlin {
+class TalkingToKotlin {
     public void loadStats(CustomerKotlin customerKotlin) {
         try {
             customerKotlin.loadStatistics("");
@@ -25,5 +25,9 @@ public class TalkingToKotlin {
         customerKotlin.changeStatus();
 
         customerKotlin.preferential();
+
+        TopLevelFunctions.prefix("Hello", "Kotlin");
+
+        System.out.println(TopLevelFunctions.COPYRIGHT);
     }
 }
