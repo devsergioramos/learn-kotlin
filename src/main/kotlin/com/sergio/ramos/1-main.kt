@@ -16,4 +16,6 @@ fun main() {
     // nome2 = "Pepsi" -> Error
 
     println(nome2)
+
+    val controleRemoto = ControleRemoto()
 }
